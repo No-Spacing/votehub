@@ -13,7 +13,6 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 use Illuminate\Support\Carbon;
-use PDF;
 
 class CustomAuthController extends Controller
 {
@@ -1009,9 +1008,7 @@ class CustomAuthController extends Controller
 
         $collection = ['data' => $data, 'sign' => $signatory, 'NoOfVoters' => $NoOfVoters, 'NoOfVoted' => $NoOfVoted, 'PendingVoters' => $PendingVoters];
 
-        $pdf = PDF::loadView('tablePdf', $collection);
-                   
-        return $pdf->stream('result.pdf');
+        
     }
     
     function logout(){
