@@ -5,3 +5,4 @@
 ## Screenshots
 ![alt text](https://github.com/No-Spacing/votehub/blob/main/screenshots/sc1.png)
 ![alt text](https://github.com/No-Spacing/votehub/blob/main/screenshots/sc2.png)
+![alt text](https://github.com/No-Spacing/votehub/blob/main/screenshots/sc3.png)
